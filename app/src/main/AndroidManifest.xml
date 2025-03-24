@@ -12,16 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MotionLayoutPracticeBootCamp"
         tools:targetApi="31">
-        <activity
-            android:name=".Step8CompletedActivity"
-            android:label="@string/title_activity_step8"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
 
-
-        </activity>
         <activity
             android:name=".Step7CompletedActivity"
             android:label="@string/title_activity_step7_completed"
@@ -32,16 +23,10 @@
 
 
         </activity>
-        <activity
-            android:name=".Step8Activity"
-            android:label="@string/title_activity_step8"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
 
 
-        </activity>
+
+
         <activity
             android:name=".Step7Activity"
             android:label="@string/title_activity_step7"

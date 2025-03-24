@@ -13,10 +13,61 @@
        <KeyFrameSet>
 
            <KeyPosition
+               motion:framePosition="25"
+               motion:keyPositionType="parentRelative"
+               motion:motionTarget="@id/moon"
+               motion:percentY="0.6" />
+           <KeyPosition
                motion:framePosition="50"
                motion:keyPositionType="parentRelative"
                motion:motionTarget="@id/moon"
-               motion:percentY="0.1" />
+               motion:percentY="0.5" />
+           <KeyPosition
+               motion:framePosition="75"
+               motion:keyPositionType="parentRelative"
+               motion:motionTarget="@id/moon"
+               motion:percentY="0.6" />
+           <KeyAttribute
+               android:rotation="-360"
+               android:scaleX="2.0"
+               android:scaleY="2.0"
+               motion:framePosition="50"
+               motion:motionTarget="@id/moon" />
+           <KeyAttribute
+               android:rotation="-720"
+               motion:framePosition="100"
+               motion:motionTarget="@id/moon" />
+           <KeyAttribute
+               android:alpha="0.0"
+               motion:framePosition="85"
+               motion:motionTarget="@id/credits" />
+           <KeyAttribute
+               android:alpha="0.0"
+               motion:framePosition="85"
+               motion:motionTarget="@id/credits" />
+           <KeyAttribute
+               motion:framePosition="0"
+               motion:motionTarget="@id/moon">
+               <CustomAttribute
+                   motion:attributeName="colorFilter"
+                   motion:customColorValue="#FFFFFF" />
+           </KeyAttribute>
+           <KeyAttribute
+               motion:framePosition="50"
+               motion:motionTarget="@id/moon">
+               <CustomAttribute
+                   motion:attributeName="colorFilter"
+                   motion:customColorValue="#FFB612" />
+
+
+           </KeyAttribute>
+           <KeyAttribute
+               motion:framePosition="100"
+               motion:motionTarget="@id/moon">
+               <CustomAttribute
+                   motion:attributeName="colorFilter"
+                   motion:customColorValue="#FFFFFF" />
+           </KeyAttribute>
 
        </KeyFrameSet>
     </Transition>
@@ -39,7 +90,6 @@
             motion:layout_constraintBottom_toBottomOf="@id/moon"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="@id/moon" />
-
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
